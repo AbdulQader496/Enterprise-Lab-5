@@ -13,7 +13,7 @@
 	</head>
 
 	<body>
-		<form action="">
+		<form action="LoginServlet">
 
 			Please enter your ID:		
 			<input type="text" id="id"/><br>		
