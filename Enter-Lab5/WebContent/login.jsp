@@ -1,28 +1,25 @@
-<%@ page language="java" 
-    contentType="text/html; charset=windows-1256"
-    pageEncoding="windows-1256"
-%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"  
+	pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" 
+	"http://www.w3.org/TR/html4/loose.dtd">
+<html>  
+<body>
+ <center>
+<form action="loginInfo" method = "GET">  
+	<p>Enter below Information</p>
+    <label for="id">Student ID: </label>
+	<input id="id" type="text" name="ID" value="">
+	<br/>
+	<br/>
+	<label for="pw">Password: </label>
+	<input id="pw" type="password" name="pw" value="">
+	<br/>
+	<br/>
+	<input type="submit" value="Login">
+	<br/>
+	<br/>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-"http://www.w3.org/TR/html4/loose.dtd">
-
-<html>
-	<head>
- <meta http-equiv="Content-Type" content="text/html; charset=windows-1256">
-		<title>Login Page</title>
-	</head>
-
-	<body>
-		<form action="LoginServlet">
-
-			Please enter your ID:		
-			<input type="text" id="id"/><br>		
-		
-			Please enter your password:
-			<input type="password" name="password"/><br>
-			
-			<input type="submit" value="submit">			
-		
-		</form>
-	</body>
-</html>
+</center>
+	 	
+</body>  
+</html>  
